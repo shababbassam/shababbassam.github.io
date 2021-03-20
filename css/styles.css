@@ -57,6 +57,21 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
+/* header {
+  background-color: #193c6d;
+  filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#003073', endColorstr='#029797');
+  background-image: url(//img.alicdn.com/tps/TB1d.u8MXXXXXXuXFXXXXXXXXXX-1900-790.jpg);
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0, #141414), color-stop(100%, #141414));
+  background-image: -webkit-linear-gradient(135deg, #ffc107,#141414);
+  background-image: -moz-linear-gradient(45deg, #ffc107, #141414);
+  background-image: -ms-linear-gradient(45deg, #ffc107 0, #141414 100%);
+  background-image: -o-linear-gradient(45deg, #ffc107, #141414);
+  background-image: linear-gradient(500deg, #ffc107, );
+  text-align: center;
+  margin: 0px;
+  overflow: hidden;
+} */
 
 body {
   margin: 0;
@@ -159,13 +174,13 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #ffff;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #117964;
-  text-decoration: underline;
+  color: #ffc107;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -445,7 +460,6 @@ mark,
 
 .list-inline {
   padding-left: 0;
-  list-style: none;
 }
 
 .list-inline-item {
@@ -2878,11 +2892,11 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #1abc9c;
+  color: #ffc107;
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #117964;
+  color: #ffc107;
   text-decoration: underline;
 }
 .btn-link:focus, .btn-link.focus {
@@ -4019,6 +4033,10 @@ input[type=button].btn-block {
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
 }
+/* dev icon */
+.dev-icons {
+  font-size: 3rem;
+}
 
 .navbar-toggler-icon {
   display: inline-block;
@@ -4576,7 +4594,7 @@ input[type=button].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -0.125rem;
   line-height: 1.25;
-  color: #1abc9c;
+  color: #ffc107;
   background-color: #fff;
   border: 0.125rem solid #dee2e6;
 }
@@ -4605,8 +4623,8 @@ input[type=button].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #ffc107;
+  border-color: #ffc107;
 }
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -4961,7 +4979,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #1abc9c;
+  background-color: #ffc107;
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5042,8 +5060,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #ffc107;
+  border-color: #ffc107;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -10067,13 +10085,13 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #ffc107;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #ffc107;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10095,11 +10113,11 @@ h3 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: #ffc107;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #ffc107;
   }
 
   #mainNav.navbar-shrink {
@@ -10178,7 +10196,7 @@ h3 {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: #1abc9c;
+  color: #ffc107;
   opacity: 1;
 }
 
@@ -10221,7 +10239,7 @@ h3 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #1abc9c;
+  color: #ffc107;
 }
 
 form .row:first-child .floating-label-form-group {
